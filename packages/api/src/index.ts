@@ -37,7 +37,7 @@ async function startServer() {
         };
       },
       listen: { 
-        port: parseInt(process.env.PORT || '5000') 
+        port: parseInt(process.env.PORT || '9258') 
       },
     });
 
